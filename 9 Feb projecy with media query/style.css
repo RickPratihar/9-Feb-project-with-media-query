@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    height: 500px;
+    /* width: 100vw; */
+   border: 2px solid black;
+   margin: 10px 10px;
+   margin-right: 10px;
+  
+}
+
+@media screen and (max-width:600px){
+   div{
+    background-color: red;
+    border-radius: 50px;
+   }
+   div::after{
+    content: "This is for Mobie";
+   }
+    
+}
+
+div{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+@media screen and (min-width:600px){
+    div{
+     background-color: green;
+     border-radius: 50px;
+    }
+    div::after{
+     content: "This is for large Phone";
+    }
+     
+ }
+ 
+ div{
+     text-align: center;
+     font-size: x-large;
+     font-weight: 900;
+ }
+
+ @media screen and (min-width:768px){
+    div{
+     background-color: rgb(13, 119, 248);
+     border-radius: 50px;
+    }
+    div::after{
+     content: "This is for Teblate";
+    }
+     
+ }
+ 
+ div{
+     text-align: center;
+     font-size: x-large;
+     font-weight: 900;
+ }
+
+ @media screen and (min-width:992px){
+    div{
+     background-color: rgb(174, 10, 228);
+     border-radius: 50px;
+    }
+    div::after{
+     content: "This is for Laptop";
+    }
+     
+ }
+ 
+ div{
+     text-align: center;
+     font-size: x-large;
+     font-weight: 900;
+ }
+
+ @media screen and (min-width:1200px){
+    div{
+     background-color: rgb(244, 213, 7);
+     border-radius: 50px;
+    }
+    div::after{
+     content: "This is for Large Laptop";
+    }
+     
+ }
+ 
+ div{
+     text-align: center;
+     font-size: x-large;
+     font-weight: 900;
+ }
